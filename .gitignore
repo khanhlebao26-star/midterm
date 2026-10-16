@@ -16,7 +16,8 @@ midterm.zip
 __pycache__/
 *.py[cod]
 
-# Chặn toàn bộ file parquet hoặc cả thư mục data
-data/*.parquet
-data/**/*.parquet
-data/
+# Bỏ qua dữ liệu, chỉ giữ file đã chuẩn bị mà dashboard cần
+data/*
+!data/processed/
+data/processed/*
+!data/processed/train_prepared.parquet
