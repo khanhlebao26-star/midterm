@@ -1,0 +1,22 @@
+# Môi trường ảo Python
+.venv/
+venv/
+ENV/
+
+# File nén & sao lưu
+*.zip
+*.tar.gz
+*.rar
+
+# Thư mục/File dữ liệu nặng hoặc file tạm
+midterm/
+midterm.zip
+
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+
+# Chặn toàn bộ file parquet hoặc cả thư mục data
+data/*.parquet
+data/**/*.parquet
+data/
